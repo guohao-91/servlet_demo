@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<arquillian xmlns="http://jboss.org/schema/arquillian"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://jboss.org/schema/arquillian
+        http://jboss.org/schema/arquillian/arquillian_1_0.xsd">
+
+    <defaultProtocol type="Servlet 3.0"></defaultProtocol>
+    <engine>
+        <property name="deploymentExportPath">/target/war</property>
+        <property name="maxTestClassesBeforeRestart">5</property>
+    </engine>
+    <container qualifier="widlfly-managed" default="true" mode="suite">
+        <configuration>
+            <!-- If you want to use an existing JBoss AS installation, change the value of this property to that path -->
+            <!-- If you've already set the JBOSS_HOME environment variable, you can remove this configuration block -->
+            <property name="jbossHome">target/wildfly-26.1.2.Final</property>
+<!--            <property name="javaHome">$JAVA_HOME</property>-->
+<!--            <property name="modulePath">$module.path</property>-->
+<!--            <property name="javaVmArguments">-Xmx512m -XX:MaxPermSize=128m</property>-->
+<!--            <property name="startupTimeoutInSeconds">30</property>-->
+<!--            <property name="outputToConsole">true</property>-->
+<!--            <property name="serverConfig">standalone.xml</property>-->
+            <property name="managementAddress">127.0.0.1</property>
+            <property name="managementPort">9990</property>
+<!--            <property name="allowConnectingToRunningServer">false</property>-->
+        </configuration>
+        <protocol type="Servlet 3.0"></protocol>
+    </container>
+<!--    <group qualifier="dev-01" default="true">-->
+<!--        <container qualifier="dev-01" default="true" mode="manual">-->
+<!--            <configuration>-->
+<!--                <property name="jbossHome">target/wildfly-26.1.2.Final</property>-->
+<!--            </configuration>-->
+<!--            <protocol type="Servlet 3.0"></protocol>-->
+<!--        </container>-->
+<!--    </group>-->
+<!--    <extension qualifier="">-->
+<!--        <property name=""></property>-->
+<!--    </extension>-->
+</arquillian>

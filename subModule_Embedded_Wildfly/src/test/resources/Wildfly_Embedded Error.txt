@@ -1,0 +1,286 @@
+Embedded Error
+
+D:\tools\pleiades\java\11\bin\java.exe -ea -Didea.test.cyclic.buffer.size=1048576 "-javaagent:D:\tools\IntelliJ IDEA 2022.1\lib\idea_rt.jar=55303:D:\tools\IntelliJ IDEA 2022.1\bin" -Dfile.encoding=UTF-8 -classpath "D:\tools\IntelliJ IDEA 2022.1\lib\idea_rt.jar;D:\tools\IntelliJ IDEA 2022.1\plugins\junit\lib\junit5-rt.jar;D:\tools\IntelliJ IDEA 2022.1\plugins\junit\lib\junit-rt.jar;D:\workspace_kccs\servlet_demo\subModule_Embedded_Wildfly\target\test-classes;D:\workspace_kccs\servlet_demo\subModule_Embedded_Wildfly\target\classes;C:\Users\123\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\123\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\123\.m2\repository\org\wildfly\arquillian\wildfly-arquillian-container-embedded\3.0.1.Final\wildfly-arquillian-container-embedded-3.0.1.Final.jar;C:\Users\123\.m2\repository\org\wildfly\arquillian\wildfly-arquillian-common\3.0.1.Final\wildfly-arquillian-common-3.0.1.Final.jar;C:\Users\123\.m2\repository\org\jboss\arquillian\testenricher\arquillian-testenricher-cdi\1.4.0.Final\arquillian-testenricher-cdi-1.4.0.Final.jar;C:\Users\123\.m2\repository\org\jboss\arquillian\testenricher\arquillian-testenricher-ejb\1.4.0.Final\arquillian-testenricher-ejb-1.4.0.Final.jar;C:\Users\123\.m2\repository\org\jboss\arquillian\testenricher\arquillian-testenricher-initialcontext\1.4.0.Final\arquillian-testenricher-initialcontext-1.4.0.Final.jar;C:\Users\123\.m2\repository\org\jboss\arquillian\testenricher\arquillian-testenricher-resource\1.4.0.Final\arquillian-testenricher-resource-1.4.0.Final.jar;C:\Users\123\.m2\repository\org\wildfly\arquillian\wildfly-arquillian-testenricher-msc\3.0.1.Final\wildfly-arquillian-testenricher-msc-3.0.1.Final.jar;C:\Users\123\.m2\repository\org\wildfly\core\wildfly-server\13.0.0.Final\wildfly-server-13.0.0.Final.jar;C:\Users\123\.m2\repository\org\wildfly\core\wildfly-controller\13.0.0.Final\wildfly-controller-13.0.0.Final.jar;C:\Users\123\.m2\repository\org\wildfly\core\wildfly-core-security\13.0.0.Final\wildfly-core-security-13.0.0.Final.jar;C:\Users\123\.m2\repository\org\wildfly\core\wildfly-core-security-api\13.0.0.Final\wildfly-core-security-api-13.0.0.Final.jar;C:\Users\123\.m2\repository\org\jboss\logmanager\jboss-logmanager\2.1.17.Final\jboss-logmanager-2.1.17.Final.jar;C:\Users\123\.m2\repository\org\jboss\staxmapper\1.3.0.Final\staxmapper-1.3.0.Final.jar;C:\Users\123\.m2\repository\org\projectodd\vdx\vdx-wildfly\1.1.6\vdx-wildfly-1.1.6.jar;C:\Users\123\.m2\repository\org\projectodd\vdx\vdx-core\1.1.6\vdx-core-1.1.6.jar;C:\Users\123\.m2\repository\org\wildfly\core\wildfly-core-management-client\13.0.0.Final\wildfly-core-management-client-13.0.0.Final.jar;C:\Users\123\.m2\repository\org\wildfly\core\wildfly-domain-http-interface\13.0.0.Final\wildfly-domain-http-interface-13.0.0.Final.jar;C:\Users\123\.m2\repository\org\wildfly\security\elytron-web\undertow-server\1.8.0.Final\undertow-server-1.8.0.Final.jar;C:\Users\123\.m2\repository\org\wildfly\core\wildfly-deployment-repository\13.0.0.Final\wildfly-deployment-repository-13.0.0.Final.jar;C:\Users\123\.m2\repository\org\wildfly\core\wildfly-platform-mbean\13.0.0.Final\wildfly-platform-mbean-13.0.0.Final.jar;C:\Users\123\.m2\repository\org\wildfly\core\wildfly-process-controller\13.0.0.Final\wildfly-process-controller-13.0.0.Final.jar;C:\Users\123\.m2\repository\org\wildfly\core\wildfly-network\13.0.0.Final\wildfly-network-13.0.0.Final.jar;C:\Users\123\.m2\repository\org\wildfly\core\wildfly-version\13.0.0.Final\wildfly-version-13.0.0.Final.jar;C:\Users\123\.m2\repository\org\jboss\jandex\2.1.3.Final\jandex-2.1.3.Final.jar;C:\Users\123\.m2\repository\org\jboss\classfilewriter\jboss-classfilewriter\1.2.4.Final\jboss-classfilewriter-1.2.4.Final.jar;C:\Users\123\.m2\repository\org\jboss\invocation\jboss-invocation\1.6.0.Final\jboss-invocation-1.6.0.Final.jar;C:\Users\123\.m2\repository\org\jboss\stdio\jboss-stdio\1.1.0.Final\jboss-stdio-1.1.0.Final.jar;C:\Users\123\.m2\repository\org\jboss\jboss-vfs\3.2.15.Final\jboss-vfs-3.2.15.Final.jar;C:\Users\123\.m2\repository\io\undertow\undertow-core\2.2.0.Final\undertow-core-2.2.0.Final.jar;C:\Users\123\.m2\repository\org\eclipse\jgit\org.eclipse.jgit.ssh.apache\5.9.0.202009080501-r\org.eclipse.jgit.ssh.apache-5.9.0.202009080501-r.jar;C:\Users\123\.m2\repository\org\eclipse\jgit\org.eclipse.jgit\5.9.0.202009080501-r\org.eclipse.jgit-5.9.0.202009080501-r.jar;C:\Users\123\.m2\repository\com\googlecode\javaewah\JavaEWAH\1.1.7\JavaEWAH-1.1.7.jar;C:\Users\123\.m2\repository\org\apache\sshd\sshd-common\2.4.0\sshd-common-2.4.0.jar;C:\Users\123\.m2\repository\org\slf4j\slf4j-api\1.7.29\slf4j-api-1.7.29.jar;C:\Users\123\.m2\repository\org\apache\sshd\sshd-core\2.4.0\sshd-core-2.4.0.jar;C:\Users\123\.m2\repository\org\wildfly\core\wildfly-controller-client\13.0.0.Final\wildfly-controller-client-13.0.0.Final.jar;C:\Users\123\.m2\repository\org\wildfly\core\wildfly-launcher\13.0.0.Final\wildfly-launcher-13.0.0.Final.jar;C:\Users\123\.m2\repository\org\wildfly\plugins\wildfly-plugin-core\2.0.2.Final\wildfly-plugin-core-2.0.2.Final.jar;C:\Users\123\.m2\repository\org\jboss\shrinkwrap\descriptors\shrinkwrap-descriptors-impl-base\2.0.0\shrinkwrap-descriptors-impl-base-2.0.0.jar;C:\Users\123\.m2\repository\org\wildfly\common\wildfly-common\1.5.4.Final\wildfly-common-1.5.4.Final.jar;C:\Users\123\.m2\repository\org\wildfly\core\wildfly-embedded\13.0.0.Final\wildfly-embedded-13.0.0.Final.jar;C:\Users\123\.m2\repository\org\jboss\modules\jboss-modules\1.10.2.Final\jboss-modules-1.10.2.Final.jar;C:\Users\123\.m2\repository\org\jboss\jboss-dmr\1.5.1.Final\jboss-dmr-1.5.1.Final.jar;C:\Users\123\.m2\repository\org\jboss\threads\jboss-threads\2.4.0.Final\jboss-threads-2.4.0.Final.jar;C:\Users\123\.m2\repository\org\jboss\logging\jboss-logging\3.4.1.Final\jboss-logging-3.4.1.Final.jar;C:\Users\123\.m2\repository\org\wildfly\core\wildfly-protocol\13.0.0.Final\wildfly-protocol-13.0.0.Final.jar;C:\Users\123\.m2\repository\org\jboss\remoting\jboss-remoting\5.0.19.Final\jboss-remoting-5.0.19.Final.jar;C:\Users\123\.m2\repository\org\wildfly\client\wildfly-client-config\1.0.1.Final\wildfly-client-config-1.0.1.Final.jar;C:\Users\123\.m2\repository\org\wildfly\security\wildfly-elytron\1.13.0.Final\wildfly-elytron-1.13.0.Final.jar;C:\Users\123\.m2\repository\org\jboss\xnio\xnio-api\3.8.2.Final\xnio-api-3.8.2.Final.jar;C:\Users\123\.m2\repository\org\jboss\xnio\xnio-nio\3.8.2.Final\xnio-nio-3.8.2.Final.jar;C:\Users\123\.m2\repository\org\wildfly\arquillian\wildfly-arquillian-protocol-jmx\3.0.1.Final\wildfly-arquillian-protocol-jmx-3.0.1.Final.jar;C:\Users\123\.m2\repository\org\jboss\arquillian\core\arquillian-core-spi\1.4.0.Final\arquillian-core-spi-1.4.0.Final.jar;C:\Users\123\.m2\repository\org\jboss\arquillian\protocol\arquillian-protocol-jmx\1.4.0.Final\arquillian-protocol-jmx-1.4.0.Final.jar;C:\Users\123\.m2\repository\org\wildfly\core\wildfly-jmx\13.0.0.Final\wildfly-jmx-13.0.0.Final.jar;C:\Users\123\.m2\repository\org\jboss\msc\jboss-msc\1.4.12.Final\jboss-msc-1.4.12.Final.jar;C:\Users\123\.m2\repository\org\jboss\remotingjmx\remoting-jmx\3.0.4.Final\remoting-jmx-3.0.4.Final.jar;C:\Users\123\.m2\repository\org\jboss\marshalling\jboss-marshalling\2.0.9.Final\jboss-marshalling-2.0.9.Final.jar;C:\Users\123\.m2\repository\org\jboss\marshalling\jboss-marshalling-river\2.0.9.Final\jboss-marshalling-river-2.0.9.Final.jar;C:\Users\123\.m2\repository\org\wildfly\core\wildfly-remoting\13.0.0.Final\wildfly-remoting-13.0.0.Final.jar;C:\Users\123\.m2\repository\org\wildfly\core\wildfly-domain-management\13.0.0.Final\wildfly-domain-management-13.0.0.Final.jar;C:\Users\123\.m2\repository\org\wildfly\core\wildfly-io\13.0.0.Final\wildfly-io-13.0.0.Final.jar;C:\Users\123\.m2\repository\org\jboss\arquillian\core\arquillian-core-api\1.4.0.Final\arquillian-core-api-1.4.0.Final.jar;C:\Users\123\.m2\repository\org\picketbox\picketbox\5.0.3.Final\picketbox-5.0.3.Final.jar;C:\Users\123\.m2\repository\org\jboss\arquillian\junit\arquillian-junit-container\1.4.0.Final\arquillian-junit-container-1.4.0.Final.jar;C:\Users\123\.m2\repository\org\jboss\arquillian\junit\arquillian-junit-core\1.4.0.Final\arquillian-junit-core-1.4.0.Final.jar;C:\Users\123\.m2\repository\org\jboss\arquillian\test\arquillian-test-api\1.4.0.Final\arquillian-test-api-1.4.0.Final.jar;C:\Users\123\.m2\repository\org\jboss\arquillian\test\arquillian-test-spi\1.4.0.Final\arquillian-test-spi-1.4.0.Final.jar;C:\Users\123\.m2\repository\org\jboss\arquillian\container\arquillian-container-test-api\1.4.0.Final\arquillian-container-test-api-1.4.0.Final.jar;C:\Users\123\.m2\repository\org\jboss\shrinkwrap\shrinkwrap-api\1.2.6\shrinkwrap-api-1.2.6.jar;C:\Users\123\.m2\repository\org\jboss\shrinkwrap\descriptors\shrinkwrap-descriptors-api-base\2.0.0\shrinkwrap-descriptors-api-base-2.0.0.jar;C:\Users\123\.m2\repository\org\jboss\arquillian\container\arquillian-container-test-spi\1.4.0.Final\arquillian-container-test-spi-1.4.0.Final.jar;C:\Users\123\.m2\repository\org\jboss\arquillian\core\arquillian-core-impl-base\1.4.0.Final\arquillian-core-impl-base-1.4.0.Final.jar;C:\Users\123\.m2\repository\org\jboss\arquillian\test\arquillian-test-impl-base\1.4.0.Final\arquillian-test-impl-base-1.4.0.Final.jar;C:\Users\123\.m2\repository\org\jboss\arquillian\container\arquillian-container-impl-base\1.4.0.Final\arquillian-container-impl-base-1.4.0.Final.jar;C:\Users\123\.m2\repository\org\jboss\arquillian\config\arquillian-config-api\1.4.0.Final\arquillian-config-api-1.4.0.Final.jar;C:\Users\123\.m2\repository\org\jboss\arquillian\config\arquillian-config-impl-base\1.4.0.Final\arquillian-config-impl-base-1.4.0.Final.jar;C:\Users\123\.m2\repository\org\jboss\arquillian\config\arquillian-config-spi\1.4.0.Final\arquillian-config-spi-1.4.0.Final.jar;C:\Users\123\.m2\repository\org\jboss\arquillian\container\arquillian-container-test-impl-base\1.4.0.Final\arquillian-container-test-impl-base-1.4.0.Final.jar;C:\Users\123\.m2\repository\org\jboss\shrinkwrap\shrinkwrap-impl-base\1.2.6\shrinkwrap-impl-base-1.2.6.jar;C:\Users\123\.m2\repository\org\jboss\shrinkwrap\shrinkwrap-spi\1.2.6\shrinkwrap-spi-1.2.6.jar;C:\Users\123\.m2\repository\org\jboss\arquillian\protocol\arquillian-protocol-servlet\1.4.0.Final\arquillian-protocol-servlet-1.4.0.Final.jar;C:\Users\123\.m2\repository\org\jboss\arquillian\container\arquillian-container-spi\1.4.0.Final\arquillian-container-spi-1.4.0.Final.jar;C:\Users\123\.m2\repository\org\jboss\shrinkwrap\descriptors\shrinkwrap-descriptors-spi\2.0.0\shrinkwrap-descriptors-spi-2.0.0.jar;C:\Users\123\.m2\repository\org\jboss\shrinkwrap\resolver\shrinkwrap-resolver-impl-maven-archive\2.2.6\shrinkwrap-resolver-impl-maven-archive-2.2.6.jar;C:\Users\123\.m2\repository\org\jboss\shrinkwrap\resolver\shrinkwrap-resolver-api-maven\2.2.6\shrinkwrap-resolver-api-maven-2.2.6.jar;C:\Users\123\.m2\repository\org\jboss\shrinkwrap\resolver\shrinkwrap-resolver-api\2.2.6\shrinkwrap-resolver-api-2.2.6.jar;C:\Users\123\.m2\repository\org\jboss\shrinkwrap\resolver\shrinkwrap-resolver-api-maven-archive\2.2.6\shrinkwrap-resolver-api-maven-archive-2.2.6.jar;C:\Users\123\.m2\repository\org\jboss\shrinkwrap\resolver\shrinkwrap-resolver-spi\2.2.6\shrinkwrap-resolver-spi-2.2.6.jar;C:\Users\123\.m2\repository\org\jboss\shrinkwrap\resolver\shrinkwrap-resolver-spi-maven-archive\2.2.6\shrinkwrap-resolver-spi-maven-archive-2.2.6.jar;C:\Users\123\.m2\repository\org\jboss\shrinkwrap\resolver\shrinkwrap-resolver-impl-maven\2.2.6\shrinkwrap-resolver-impl-maven-2.2.6.jar;C:\Users\123\.m2\repository\org\jboss\shrinkwrap\resolver\shrinkwrap-resolver-spi-maven\2.2.6\shrinkwrap-resolver-spi-maven-2.2.6.jar;C:\Users\123\.m2\repository\org\eclipse\aether\aether-api\1.0.0.v20140518\aether-api-1.0.0.v20140518.jar;C:\Users\123\.m2\repository\org\eclipse\aether\aether-impl\1.0.0.v20140518\aether-impl-1.0.0.v20140518.jar;C:\Users\123\.m2\repository\org\eclipse\aether\aether-spi\1.0.0.v20140518\aether-spi-1.0.0.v20140518.jar;C:\Users\123\.m2\repository\org\eclipse\aether\aether-util\1.0.0.v20140518\aether-util-1.0.0.v20140518.jar;C:\Users\123\.m2\repository\org\eclipse\aether\aether-connector-basic\1.0.0.v20140518\aether-connector-basic-1.0.0.v20140518.jar;C:\Users\123\.m2\repository\org\eclipse\aether\aether-transport-wagon\1.0.0.v20140518\aether-transport-wagon-1.0.0.v20140518.jar;C:\Users\123\.m2\repository\org\apache\maven\maven-aether-provider\3.2.5\maven-aether-provider-3.2.5.jar;C:\Users\123\.m2\repository\org\apache\maven\maven-model\3.2.5\maven-model-3.2.5.jar;C:\Users\123\.m2\repository\org\apache\maven\maven-model-builder\3.2.5\maven-model-builder-3.2.5.jar;C:\Users\123\.m2\repository\org\apache\maven\maven-repository-metadata\3.2.5\maven-repository-metadata-3.2.5.jar;C:\Users\123\.m2\repository\org\apache\maven\maven-settings\3.2.5\maven-settings-3.2.5.jar;C:\Users\123\.m2\repository\org\apache\maven\maven-settings-builder\3.2.5\maven-settings-builder-3.2.5.jar;C:\Users\123\.m2\repository\com\google\guava\guava\18.0\guava-18.0.jar;C:\Users\123\.m2\repository\org\codehaus\plexus\plexus-interpolation\1.21\plexus-interpolation-1.21.jar;C:\Users\123\.m2\repository\org\sonatype\plexus\plexus-sec-dispatcher\1.3\plexus-sec-dispatcher-1.3.jar;C:\Users\123\.m2\repository\org\sonatype\plexus\plexus-cipher\1.4\plexus-cipher-1.4.jar;C:\Users\123\.m2\repository\org\apache\maven\wagon\wagon-provider-api\2.6\wagon-provider-api-2.6.jar;C:\Users\123\.m2\repository\org\apache\maven\wagon\wagon-file\2.6\wagon-file-2.6.jar;C:\Users\123\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\123\.m2\repository\org\apache\maven\wagon\wagon-http-lightweight\2.6\wagon-http-lightweight-2.6.jar;C:\Users\123\.m2\repository\org\apache\maven\wagon\wagon-http-shared\2.6\wagon-http-shared-2.6.jar;C:\Users\123\.m2\repository\org\jsoup\jsoup\1.7.2\jsoup-1.7.2.jar;C:\Users\123\.m2\repository\commons-io\commons-io\2.2\commons-io-2.2.jar;C:\Users\123\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.plexus\0.3.0.M1\org.eclipse.sisu.plexus-0.3.0.M1.jar;C:\Users\123\.m2\repository\javax\enterprise\cdi-api\1.0\cdi-api-1.0.jar;C:\Users\123\.m2\repository\javax\annotation\jsr250-api\1.0\jsr250-api-1.0.jar;C:\Users\123\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\123\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.inject\0.3.0.M1\org.eclipse.sisu.inject-0.3.0.M1.jar;C:\Users\123\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.5.5\plexus-component-annotations-1.5.5.jar;C:\Users\123\.m2\repository\org\codehaus\plexus\plexus-compiler-javac\2.3\plexus-compiler-javac-2.3.jar;C:\Users\123\.m2\repository\org\codehaus\plexus\plexus-compiler-api\2.3\plexus-compiler-api-2.3.jar;C:\Users\123\.m2\repository\org\codehaus\plexus\plexus-utils\3.0.20\plexus-utils-3.0.20.jar" com.intellij.rt.junit.JUnitStarter -ideVersion5 -junit4 org.example.GHArquillianEmbeddedWildflyJunitTest
+11月 03, 2022 5:52:46 下午 org.jboss.threads.Version <clinit>
+INFO: JBoss Threads version 2.4.0.Final
+11月 03, 2022 5:52:46 下午 org.jboss.logmanager.JBossLoggerFinder getLogger
+ERROR: The LogManager accessed before the "java.util.logging.manager" system property was set to "org.jboss.logmanager.LogManager". Results may be unexpected.
+11月 03, 2022 5:52:46 下午 org.wildfly.core.embedded.LoggerContext$JBossLoggingModuleLogger greeting
+INFO: JBoss Modules version 1.10.2.Final
+11月 03, 2022 5:52:46 下午 org.jboss.msc.service.ServiceContainerImpl <clinit>
+INFO: JBoss MSC version 1.4.13.Final
+11月 03, 2022 5:52:46 下午 org.jboss.as.server.ApplicationServerService start
+INFO: WFLYSRV0049: WildFly Full 26.1.2.Final (WildFly Core 18.1.2.Final) starting
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.wildfly.extension.elytron.SSLDefinitions (jar:file:/D:/WEB_SERVER/wildfly/wildfly-dist-26.1.2.Final/wildfly-26.1.2.Final/modules/system/layers/base/org/wildfly/extension/elytron/main/wildfly-elytron-integration-18.1.2.Final.jar!/) to method com.sun.net.ssl.internal.ssl.Provider.isFIPS()
+WARNING: Please consider reporting this to the maintainers of org.wildfly.extension.elytron.SSLDefinitions
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+11月 03, 2022 5:52:48 下午 org.wildfly.security.Version <clinit>
+INFO: ELY00001: WildFly Elytron version 1.19.1.Final
+11月 03, 2022 5:52:49 下午 org.jboss.as.server.operations.HttpManagementAddHandler installServices
+INFO: WFLYSRV0039: Creating http management service using socket-binding (management-http)
+11月 03, 2022 5:52:49 下午 org.xnio.Xnio <clinit>
+INFO: XNIO version 3.8.7.Final
+11月 03, 2022 5:52:49 下午 org.xnio.nio.NioXnio <clinit>
+INFO: XNIO NIO Implementation Version 3.8.7.Final
+11月 03, 2022 5:52:49 下午 org.wildfly.extension.microprofile.config.smallrye.MicroProfileConfigSubsystemAdd performBoottime
+INFO: WFLYCONF0001: Activating MicroProfile Config Subsystem
+11月 03, 2022 5:52:49 下午 org.jboss.as.clustering.infinispan.subsystem.InfinispanSubsystemServiceHandler installServices
+INFO: WFLYCLINF0001: Activating Infinispan subsystem.
+11月 03, 2022 5:52:49 下午 org.wildfly.extension.health.HealthSubsystemAdd performBoottime
+INFO: WFLYHEALTH0001: Activating Base Health Subsystem
+11月 03, 2022 5:52:49 下午 org.jboss.as.naming.subsystem.NamingSubsystemAdd performBoottime
+INFO: WFLYNAM0001: Activating Naming Subsystem
+11月 03, 2022 5:52:49 下午 org.jboss.as.txn.subsystem.TransactionSubsystemAdd checkIfNodeIdentifierIsDefault
+WARN: WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+11月 03, 2022 5:52:49 下午 org.jboss.as.jaxrs.JaxrsSubsystemAdd performBoottime
+INFO: WFLYRS0016: RESTEasy version 4.7.7.Final
+11月 03, 2022 5:52:49 下午 org.wildfly.extension.microprofile.jwt.smallrye.MicroProfileJWTSubsystemAdd performBoottime
+INFO: WFLYJWT0001: Activating MicroProfile JWT Subsystem
+11月 03, 2022 5:52:49 下午 org.jboss.as.connector.subsystems.jca.JcaConfigService start
+INFO: WFLYJCA0009: Starting Jakarta Connectors Subsystem (WildFly/IronJacamar 1.5.3.Final)
+11月 03, 2022 5:52:49 下午 org.jboss.as.jsf.deployment.JSFModuleIdFactory <init>
+INFO: WFLYJSF0007: Activated the following Jakarta Server Faces Implementations: [main]
+11月 03, 2022 5:52:49 下午 org.jboss.as.webservices.dmr.WSSubsystemAdd performBoottime
+INFO: WFLYWS0002: Activating WebServices Extension
+11月 03, 2022 5:52:49 下午 org.wildfly.extension.microprofile.opentracing.SubsystemAdd performBoottime
+INFO: WFLYTRACEXT0001: Activating MicroProfile OpenTracing Subsystem
+11月 03, 2022 5:52:49 下午 org.wildfly.extension.elytron.oidc.ElytronOidcSubsystemAdd performBoottime
+INFO: WFLYOIDC0001: Activating WildFly Elytron OIDC Subsystem
+11月 03, 2022 5:52:49 下午 org.jboss.msc.service.ServiceControllerImpl startFailed
+ERROR: MSC000001: Failed to start service org.wildfly.security.providers.openssl
+org.jboss.msc.service.StartException in service org.wildfly.security.providers.openssl: Failed to start service
+	at org.jboss.msc@1.4.13.Final//org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1731)
+	at org.jboss.msc@1.4.13.Final//org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1559)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1990)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1363)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.NoSuchMethodError: 'java.lang.Iterable org.jboss.modules.Module.findServices(java.lang.Class, java.util.function.Predicate, java.lang.ClassLoader)'
+	at org.wildfly.extension.elytron@18.1.2.Final//org.wildfly.extension.elytron.ProviderDefinitions$1$1.loadProviders(ProviderDefinitions.java:267)
+	at org.wildfly.extension.elytron@18.1.2.Final//org.wildfly.extension.elytron.ProviderDefinitions$1$1.access$300(ProviderDefinitions.java:129)
+	at org.wildfly.extension.elytron@18.1.2.Final//org.wildfly.extension.elytron.ProviderDefinitions$1$1$1.get(ProviderDefinitions.java:191)
+	at org.wildfly.extension.elytron@18.1.2.Final//org.wildfly.extension.elytron.ProviderDefinitions$1$1$1.get(ProviderDefinitions.java:176)
+	at org.wildfly.extension.elytron@18.1.2.Final//org.wildfly.extension.elytron.ElytronDoohickey.get(ElytronDoohickey.java:114)
+	at org.wildfly.extension.elytron@18.1.2.Final//org.wildfly.extension.elytron.TrivialService.start(TrivialService.java:61)
+	at org.jboss.msc@1.4.13.Final//org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1739)
+	at org.jboss.msc@1.4.13.Final//org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1701)
+	... 6 more
+
+11月 03, 2022 5:52:49 下午 org.jboss.msc.service.ServiceControllerImpl startFailed
+ERROR: MSC000001: Failed to start service org.wildfly.security.providers.elytron
+org.jboss.msc.service.StartException in service org.wildfly.security.providers.elytron: Failed to start service
+	at org.jboss.msc@1.4.13.Final//org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1731)
+	at org.jboss.msc@1.4.13.Final//org.jboss.msc.service.ServiceControllerImpl$ControllerTask.run(ServiceControllerImpl.java:1559)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1990)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1486)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1363)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.NoSuchMethodError: 'java.lang.Iterable org.jboss.modules.Module.findServices(java.lang.Class, java.util.function.Predicate, java.lang.ClassLoader)'
+	at org.wildfly.extension.elytron@18.1.2.Final//org.wildfly.extension.elytron.ProviderDefinitions$1$1.loadProviders(ProviderDefinitions.java:267)
+	at org.wildfly.extension.elytron@18.1.2.Final//org.wildfly.extension.elytron.ProviderDefinitions$1$1.access$300(ProviderDefinitions.java:129)
+	at org.wildfly.extension.elytron@18.1.2.Final//org.wildfly.extension.elytron.ProviderDefinitions$1$1$1.get(ProviderDefinitions.java:191)
+	at org.wildfly.extension.elytron@18.1.2.Final//org.wildfly.extension.elytron.ProviderDefinitions$1$1$1.get(ProviderDefinitions.java:176)
+	at org.wildfly.extension.elytron@18.1.2.Final//org.wildfly.extension.elytron.ElytronDoohickey.get(ElytronDoohickey.java:114)
+	at org.wildfly.extension.elytron@18.1.2.Final//org.wildfly.extension.elytron.TrivialService.start(TrivialService.java:61)
+	at org.jboss.msc@1.4.13.Final//org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1739)
+	at org.jboss.msc@1.4.13.Final//org.jboss.msc.service.ServiceControllerImpl$StartTask.execute(ServiceControllerImpl.java:1701)
+	... 6 more
+
+11月 03, 2022 5:52:49 下午 org.jboss.as.connector.subsystems.datasources.JdbcDriverAdd startDriverServices
+INFO: WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
+11月 03, 2022 5:52:49 下午 org.jboss.as.connector.services.driver.DriverService start
+INFO: WFLYJCA0018: Started Driver service with driver-name = h2
+11月 03, 2022 5:52:49 下午 org.wildfly.extension.metrics.MetricsSubsystemAdd performBoottime
+INFO: WFLYMETRICS0001: Activating Base Metrics Subsystem
+11月 03, 2022 5:52:49 下午 org.jboss.as.naming.service.NamingService start
+INFO: WFLYNAM0003: Starting Naming Service
+11月 03, 2022 5:52:49 下午 org.jboss.as.mail.extension.MailSessionAdd$1 handleEvent
+INFO: WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+11月 03, 2022 5:52:49 下午 org.wildfly.extension.undertow.UndertowService start
+INFO: WFLYUT0003: Undertow 2.2.19.Final starting
+11月 03, 2022 5:52:49 下午 org.wildfly.extension.undertow.handlers.FileHandler createHandler
+INFO: WFLYUT0014: Creating file handler for path 'D:\WEB_SERVER\wildfly\wildfly-dist-26.1.2.Final\wildfly-26.1.2.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+11月 03, 2022 5:52:49 下午 org.wildfly.extension.io.WorkerAdd performRuntime
+INFO: WFLYIO001: Worker 'default' has auto-configured to 12 IO threads with 96 max task threads based on your 6 available processors
+11月 03, 2022 5:52:49 下午 org.jboss.as.ejb3.component.pool.StrictMaxPoolConfigService setDerive
+INFO: WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 96 (per class), which is derived from thread worker pool sizing.
+11月 03, 2022 5:52:49 下午 org.jboss.as.ejb3.component.pool.StrictMaxPoolConfigService setDerive
+INFO: WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 24 (per class), which is derived from the number of CPUs on this host.
+11月 03, 2022 5:52:49 下午 com.arjuna.ats.jbossatx.jta.RecoveryManagerService create
+INFO: ARJUNA032010: JBossTS Recovery Service (tag: 434e40b22e9c88dd24d81d29869687418c4ac5db) - JBoss Inc.
+11月 03, 2022 5:52:49 下午 org.wildfly.extension.undertow.Server start
+INFO: WFLYUT0012: Started server default-server.
+11月 03, 2022 5:52:49 下午 org.wildfly.extension.undertow.Host start
+INFO: Queuing requests.
+11月 03, 2022 5:52:49 下午 org.jboss.remoting3.EndpointImpl <clinit>
+INFO: JBoss Remoting version 5.0.25.Final
+11月 03, 2022 5:52:49 下午 org.wildfly.extension.undertow.Host start
+INFO: WFLYUT0018: Host default-host starting
+11月 03, 2022 5:52:49 下午 org.jboss.as.server.deployment.scanner.FileSystemDeploymentService startScanner
+INFO: WFLYDS0013: Started FileSystemDeploymentService for directory D:\WEB_SERVER\wildfly\wildfly-dist-26.1.2.Final\wildfly-26.1.2.Final\standalone\deployments
+11月 03, 2022 5:52:49 下午 org.jboss.as.patching.installation.InstallationManagerService start
+INFO: WFLYPAT0050: WildFly Full cumulative patch ID is: base, one-off patches include: none
+11月 03, 2022 5:52:49 下午 org.wildfly.extension.undertow.HttpListenerService startListening
+INFO: WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+11月 03, 2022 5:52:49 下午 com.arjuna.ats.jbossatx.jta.RecoveryManagerService start
+INFO: ARJUNA032013: Starting transaction recovery manager
+11月 03, 2022 5:52:49 下午 com.arjuna.ats.jbossatx.jta.TransactionManagerService create
+INFO: ARJUNA032017: JBossTS Transaction Service (JTA version - tag: 434e40b22e9c88dd24d81d29869687418c4ac5db) - JBoss Inc.
+11月 03, 2022 5:52:49 下午 org.jboss.as.ejb3.suspend.EJBSuspendHandlerService doneSuspended
+INFO: WFLYEJB0493: Jakarta Enterprise Beans subsystem suspension complete
+11月 03, 2022 5:52:49 下午 org.jboss.as.connector.subsystems.datasources.AbstractDataSourceAdd$2 handleEvent
+INFO: WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+11月 03, 2022 5:52:49 下午 org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("add") failed - address: ([
+    ("core-service" => "management"),
+    ("management-interface" => "http-interface")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => ["jboss.http-upgrade-registry.http-management"],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => ["jboss.remoting.remoting-http-upgrade-service.http-management is missing [jboss.http-upgrade-registry.http-management]"]
+}
+11月 03, 2022 5:52:49 下午 org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("provider-loader" => "elytron")
+]) - failure description: {"WFLYCTL0080: Failed services" => {"org.wildfly.security.providers.elytron" => "Failed to start service
+    Caused by: java.lang.NoSuchMethodError: 'java.lang.Iterable org.jboss.modules.Module.findServices(java.lang.Class, java.util.function.Predicate, java.lang.ClassLoader)'"}}
+11月 03, 2022 5:52:49 下午 org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("add") failed - address: ([
+    ("subsystem" => "elytron"),
+    ("provider-loader" => "openssl")
+]) - failure description: {"WFLYCTL0080: Failed services" => {"org.wildfly.security.providers.openssl" => "Failed to start service
+    Caused by: java.lang.NoSuchMethodError: 'java.lang.Iterable org.jboss.modules.Module.findServices(java.lang.Class, java.util.function.Predicate, java.lang.ClassLoader)'"}}
+11月 03, 2022 5:52:49 下午 org.jboss.as.controller.management.ManagementInterfaceAddStepHandler$VerifyInstallationStep execute
+ERROR: WFLYCTL0459: Triggering roll back due to missing management services.
+11月 03, 2022 5:52:49 下午 org.jboss.as.controller.AbstractOperationContext executeStep
+ERROR: WFLYCTL0013: Operation ("add") failed - address: ([
+    ("core-service" => "management"),
+    ("management-interface" => "http-interface")
+]) - failure description: {
+    "WFLYCTL0412: Required services that are not installed:" => ["jboss.http-upgrade-registry.http-management"],
+    "WFLYCTL0180: Services with missing/unavailable dependencies" => ["jboss.remoting.remoting-http-upgrade-service.http-management is missing [jboss.http-upgrade-registry.http-management]"]
+}
+11月 03, 2022 5:52:49 下午 org.jboss.as.mail.extension.MailSessionAdd$1 handleEvent
+INFO: WFLYMAIL0002: Unbound mail session [java:jboss/mail/Default]
+11月 03, 2022 5:52:49 下午 org.jboss.as.connector.subsystems.datasources.AbstractDataSourceAdd$2 handleEvent
+INFO: WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+11月 03, 2022 5:52:49 下午 org.wildfly.extension.undertow.HttpListenerService stopListening
+INFO: WFLYUT0008: Undertow HTTP listener default suspending
+11月 03, 2022 5:52:49 下午 org.wildfly.extension.undertow.HttpListenerService stopListening
+INFO: WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+11月 03, 2022 5:52:49 下午 org.wildfly.extension.undertow.Host stop
+INFO: WFLYUT0019: Host default-host stopping
+11月 03, 2022 5:52:49 下午 org.wildfly.extension.undertow.UndertowService stop
+INFO: WFLYUT0004: Undertow 2.2.19.Final stopping
+11月 03, 2022 5:52:49 下午 org.jboss.as.connector.services.driver.DriverService stop
+INFO: WFLYJCA0019: Stopped Driver service with driver-name = h2
+11月 03, 2022 5:52:49 下午 com.arjuna.ats.jbossatx.jta.TransactionManagerService destroy
+INFO: ARJUNA032018: Destroying TransactionManagerService
+11月 03, 2022 5:52:49 下午 com.arjuna.ats.jbossatx.jta.RecoveryManagerService stop
+INFO: ARJUNA032014: Stopping transaction recovery manager
+11月 03, 2022 5:52:49 下午 org.jboss.as.server.ServerService$4 logExit
+FATAL: WFLYSRV0056: Server boot has failed in an unrecoverable manner; exiting. See previous messages for details. - Server configuration file in use: standalone.xml
+11月 03, 2022 5:52:49 下午 org.jboss.as.server.ApplicationServerService stop
+INFO: WFLYSRV0050: WildFly Full 26.1.2.Final (WildFly Core 18.1.2.Final) stopped in 7ms
+
+Test ignored.
+
+Test ignored.
+
+org.jboss.arquillian.container.spi.client.container.LifecycleException: Could not invoke start on: org.wildfly.core.embedded.EmbeddedManagedProcessImpl@5cf87cfd
+
+	at org.jboss.as.arquillian.container.embedded.EmbeddedDeployableContainer.startInternal(EmbeddedDeployableContainer.java:63)
+	at org.jboss.as.arquillian.container.CommonDeployableContainer.start(CommonDeployableContainer.java:131)
+	at org.jboss.arquillian.container.impl.ContainerImpl.start(ContainerImpl.java:179)
+	at org.jboss.arquillian.container.impl.client.container.ContainerLifecycleController$8.perform(ContainerLifecycleController.java:137)
+	at org.jboss.arquillian.container.impl.client.container.ContainerLifecycleController$8.perform(ContainerLifecycleController.java:133)
+	at org.jboss.arquillian.container.impl.client.container.ContainerLifecycleController.forContainer(ContainerLifecycleController.java:208)
+	at org.jboss.arquillian.container.impl.client.container.ContainerLifecycleController.startContainer(ContainerLifecycleController.java:133)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:86)
+	at org.jboss.arquillian.core.impl.EventContextImpl.invokeObservers(EventContextImpl.java:103)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:90)
+	at org.jboss.arquillian.container.impl.client.ContainerDeploymentContextHandler.createContainerContext(ContainerDeploymentContextHandler.java:54)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:86)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:95)
+	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:133)
+	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:105)
+	at org.jboss.arquillian.core.impl.EventImpl.fire(EventImpl.java:62)
+	at org.jboss.arquillian.container.impl.client.container.ContainerLifecycleController$2.perform(ContainerLifecycleController.java:70)
+	at org.jboss.arquillian.container.impl.client.container.ContainerLifecycleController$2.perform(ContainerLifecycleController.java:64)
+	at org.jboss.arquillian.container.impl.client.container.ContainerLifecycleController.forEachSuiteContainer(ContainerLifecycleController.java:181)
+	at org.jboss.arquillian.container.impl.client.container.ContainerLifecycleController.startSuiteContainers(ContainerLifecycleController.java:64)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:86)
+	at org.jboss.arquillian.core.impl.EventContextImpl.invokeObservers(EventContextImpl.java:103)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:90)
+	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:133)
+	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:105)
+	at org.jboss.arquillian.core.impl.EventImpl.fire(EventImpl.java:62)
+	at org.jboss.arquillian.container.test.impl.client.ContainerEventController.execute(ContainerEventController.java:83)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:86)
+	at org.jboss.arquillian.core.impl.EventContextImpl.invokeObservers(EventContextImpl.java:103)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:90)
+	at org.jboss.arquillian.test.impl.TestContextHandler.createSuiteContext(TestContextHandler.java:69)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.jboss.arquillian.core.impl.ObserverImpl.invoke(ObserverImpl.java:86)
+	at org.jboss.arquillian.core.impl.EventContextImpl.proceed(EventContextImpl.java:95)
+	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:133)
+	at org.jboss.arquillian.core.impl.ManagerImpl.fire(ManagerImpl.java:105)
+	at org.jboss.arquillian.test.impl.EventTestRunnerAdaptor.beforeSuite(EventTestRunnerAdaptor.java:71)
+	at org.jboss.arquillian.junit.AdaptorManager.initializeAdaptor(AdaptorManager.java:23)
+	at org.jboss.arquillian.junit.AdaptorManagerWithNotifier.initializeAdaptor(AdaptorManagerWithNotifier.java:19)
+	at org.jboss.arquillian.junit.Arquillian.run(Arquillian.java:109)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)
+Caused by: java.lang.IllegalStateException: WFLYEMB0022: Cannot invoke 'start' on embedded process
+	at org.wildfly.core.embedded.EmbeddedManagedProcessImpl.invokeOnServer(EmbeddedManagedProcessImpl.java:119)
+	at org.wildfly.core.embedded.EmbeddedManagedProcessImpl.start(EmbeddedManagedProcessImpl.java:64)
+	at org.jboss.as.arquillian.container.embedded.EmbeddedDeployableContainer.startInternal(EmbeddedDeployableContainer.java:61)
+	... 65 more
+Caused by: org.wildfly.core.embedded.EmbeddedProcessStartException: WFLYEMB0021: Cannot start embedded process
+	at org.wildfly.embedded@18.1.2.Final//org.wildfly.core.embedded.EmbeddedStandaloneServerFactory$StandaloneServerImpl.start(EmbeddedStandaloneServerFactory.java:324)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.wildfly.core.embedded.EmbeddedManagedProcessImpl.invokeOnServer(EmbeddedManagedProcessImpl.java:107)
+	... 67 more
+Caused by: java.util.concurrent.ExecutionException: JBTHR00005: Operation failed
+	at org.jboss.threads.AsyncFutureTask.get(AsyncFutureTask.java:253)
+	at org.wildfly.embedded@18.1.2.Final//org.wildfly.core.embedded.EmbeddedStandaloneServerFactory$StandaloneServerImpl.start(EmbeddedStandaloneServerFactory.java:305)
+	... 72 more
+Caused by: java.lang.Exception: WFLYSRV0056: Server boot has failed in an unrecoverable manner; exiting. See previous messages for details. - Server configuration file in use: standalone.xml
+	at org.jboss.as.server@18.1.2.Final//org.jboss.as.server.BootstrapListener.bootFailure(BootstrapListener.java:87)
+	at org.jboss.as.server@18.1.2.Final//org.jboss.as.server.ServerService.boot(ServerService.java:445)
+	at org.jboss.as.controller@18.1.2.Final//org.jboss.as.controller.AbstractControllerService$1.run(AbstractControllerService.java:473)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+
+Process finished with exit code -1
